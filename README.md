@@ -48,11 +48,11 @@ Manage events more effectivly using this day planner.
 [Untitled](https://user-images.githubusercontent.com/114119193/201790517-a2a1926d-bbc8-42a9-9d67-fd61559b24ee.webm)
 
 Screenshot at time set to 12PM
+<img width="1915" alt="ss-12pm-dayplanner" src="https://user-images.githubusercontent.com/114119193/201790601-7366562b-2045-4a4c-be71-83038b43cfeb.png">
 
 
 ## link to deployed application
 :link: https://nmotley92.github.io/day-plan
-<img width="1915" alt="ss-12pm-dayplanner" src="https://user-images.githubusercontent.com/114119193/201790601-7366562b-2045-4a4c-be71-83038b43cfeb.png">
 
 
 ## Contact
