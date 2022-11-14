@@ -18,5 +18,20 @@ saveButtonsEl.click(function(){
     if (text2 !== null) $(this).val(text2);
  }); 
 }
-
+//  checks the current time to color code
+ var currentTime= dayjs().hour();
+ console.log(currentTime)
+$(".time-block").each(function(){
+    var id = $(this).attr('id');
+    var hourNum=id.replace( /^\D+/g, '');
+    if(hourNum< currentTime){
+      $(this).addClass("past");
+    }
+    if (hourNum==currentTime){
+      $(this).addClass("present");
+    }
+    if(hourNum>currentTime){
+      $(this).addClass("future");
+    }
+})
 
