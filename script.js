@@ -1,6 +1,7 @@
 var currentDayEl= $('#currentDay');
 var currentDay= dayjs().format('dddd, MMMM D' )
 var saveButtonsEl= $('.btn');
+var saveMsgEl= $('#save-msg');
 
 // current day
 currentDayEl.text(currentDay);
@@ -9,6 +10,7 @@ saveButtonsEl.click(function(){
   var id = $(this).parent().attr('id');
   var value = $(this).prev().val();
   localStorage.setItem(id, value);
+  saveMsgEl.text("Event saved to local storage ✔️" );
 })
 // onload loads all local storage data to the textarea 
  window.onload = function() {        
@@ -19,7 +21,7 @@ saveButtonsEl.click(function(){
  }); 
 }
 //  checks the current time to color code
- var currentTime= 12;
+ var currentTime= dayjs().hour();
  console.log(currentTime)
 $(".time-block").each(function(){
     var id = $(this).attr('id');
