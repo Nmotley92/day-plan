@@ -45,7 +45,8 @@ Manage events more effectivly using this day planner.
 
 ```
 ## Visuals
-[Untitled_ Nov 14, 2022 5_33 PM.webm](https://user-images.githubusercontent.com/114119193/201790517-a2a1926d-bbc8-42a9-9d67-fd61559b24ee.webm)
+[Untitled](https://user-images.githubusercontent.com/114119193/201790517-a2a1926d-bbc8-42a9-9d67-fd61559b24ee.webm)
+
 Screenshot at time set to 12PM
 
 
