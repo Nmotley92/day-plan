@@ -19,7 +19,7 @@ saveButtonsEl.click(function(){
  }); 
 }
 //  checks the current time to color code
- var currentTime= dayjs().hour();
+ var currentTime= 12;
  console.log(currentTime)
 $(".time-block").each(function(){
     var id = $(this).attr('id');
