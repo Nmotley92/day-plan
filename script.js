@@ -10,4 +10,13 @@ saveButtonsEl.click(function(){
   var value = $(this).prev().val();
   localStorage.setItem(id, value);
 })
+// onload loads all local storage data to the textarea 
+ window.onload = function() {        
+ $('textarea').each(function(){    
+    var id = $(this).parent().attr('id');
+    var text2 = localStorage.getItem(id);
+    if (text2 !== null) $(this).val(text2);
+ }); 
+}
+
 
